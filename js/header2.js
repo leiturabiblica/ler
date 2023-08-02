@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', function () {
   
     // Redirecionamento do botão "Ler a Bíblia"
     button.addEventListener('click', function () {
-      window.location.href = '../ler.html';
+      window.location.href = '../index.html';
     });
   
     // Estilos do header
