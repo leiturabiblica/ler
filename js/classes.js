@@ -79,7 +79,7 @@ class Versiculo {
     const shareText = '_' + this.texto + '_';
     const shareUrl = '*leiturabiblica.github.io/ler*';
 
-    const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText + '          ' + 'Leia mais em: ' +  shareUrl)}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?text={shareText}%0ALeia mais em:%20{shareUrl}`;
     window.open(whatsappUrl, '_blank');
   }
 }
@@ -165,7 +165,7 @@ shareOnWhatsApp() {
   const shareText = '_' + this.texto + '_';
   const shareUrl = '*leiturabiblica.github.io/ler*';
 
-  const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText + '          ' + 'Leia mais em: ' +  shareUrl)}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?text={shareText}%0ALeia mais em:%20{shareUrl}`;
   window.open(whatsappUrl, '_blank');
 }
 }
