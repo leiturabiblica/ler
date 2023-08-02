@@ -239,7 +239,7 @@ $(document).ready(function() {
 
             for (const versiculoKey in capituloObj) {
               const versiculoObj = capituloObj[versiculoKey];
-              const versiculo = new Versiculo(versiculoCount, versiculoObj.Versículo, versiculoObj.Cód_max);
+              const versiculo = new Versiculo2(versiculoCount, versiculoObj.Versículo, versiculoObj.Cód_max);
               const versiculoElement = versiculo.criarElemento();
               mainElement.append(versiculoElement);
               versiculoCount++;
