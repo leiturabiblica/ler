@@ -1,0 +1,39 @@
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.botao-voltar, .botao-avancar {
+    padding: 5px;
+    width: 75px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 94, 94, 0);
+    color: #6d6c6c;
+    font-weight: bolder;
+}
+
+.botao-voltar:hover, .botao-avancar:hover {
+    color: #f74747;
+    cursor: pointer;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 95%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btns {
+    margin: 15px;
+}
+

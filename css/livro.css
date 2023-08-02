@@ -1,0 +1,162 @@
+.versiculo-container {
+    display: flex;
+    border-bottom: 1px solid #cccccc50;
+    padding: 0 15px;
+    justify-content: space-between;
+
+}
+
+.versiculo-container:hover {
+    padding: 0 0;
+    border-left: 3px solid #f00;
+}
+
+.versiculo-container:hover .versiculo-div-texto  {
+    padding-right: 20px;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.versiculo-div-numero {
+    width: 1%;
+    min-width: 30px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.versiculo-div-texto {
+    width: 94%;
+    min-width: 150px;
+    text-align: justify;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.versiculo-texto {
+    font-family: 'Poppins', sans-serif;
+}
+
+.versiculo-codigo {
+    text-align: left;
+    color: #cccccc80;
+    font-style: italic;
+    display: none;
+}
+
+.versiculo-div-botao-compartilhar {
+    min-width: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(75, 248, 142);
+    border: none;
+    padding: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+.versiculo-div-botao-panfleto {
+    min-width: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ccc;
+    border: none;
+    padding: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+.versiculo-container:active .versiculo-div-botao-compartilhar {
+    display: flex;
+}
+
+.versiculo-div-botao-panfleto:hover {
+    background-color: #ddc;
+}
+
+.versiculo-div-botao-compartilhar:hover {
+    background-color: rgb(68, 226, 129);
+}
+
+.versiculo-div-botao-panfleto:hover #botao-panfleto, .versiculo-div-botao-compartilhar:hover #botao-compartilhar {
+    background-color: #fff0f000;
+}
+
+.versiculo-botao-compartilhar, .versiculo-botao-panfleto {
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: none;
+    transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave */
+}
+
+.versiculo-botao-compartilhar:hover, .versiculo-botao-panfleto:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone no hover */
+}
+
+.icone-compartilhar img, .icone-panfleto img {
+    width: 24px; /* Defina o tamanho desejado para o ícone */
+    height: 24px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+
+.botao-voltar {
+    padding: 5px 0;
+    width: 75px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 94, 94, 0);
+    color: #6d6c6c;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.botao-avancar {
+    padding: 5px 0;
+    width: 75px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(255, 94, 94, 0);
+    color: #6d6c6c;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.botao-voltar:hover, .botao-avancar:hover {
+    color: #f74747;
+    cursor: pointer;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+section h3 {
+    font-family: 'Encode Sans', sans-serif;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+
+
+
+
