@@ -70,8 +70,12 @@
     cursor: pointer;
 }
 
-.versiculo-container:active .versiculo-div-botao-compartilhar {
+.versiculo-container:hover .versiculo-div-botao-compartilhar {
     display: flex;
+}
+
+.versiculo-container:active .versiculo-div-botao-compartilhar {
+    display: none;
 }
 
 .versiculo-div-botao-panfleto:hover {
