@@ -77,7 +77,7 @@ class Versiculo {
 
   shareOnWhatsApp() {
     const shareCode = '*' + this.codigo + '*';
-    const shareText = '_"' + this.texto + '"_';
+    const shareText = '_' + this.texto + '_';
     const shareUrl = '*leiturabiblica.github.io/ler*';
 
     const whatsappUrl = `https://api.whatsapp.com/send?text=${shareCode}%0A%0A${shareText}%0A%0ALeia%20mais%20em:%20${shareUrl}`;
@@ -164,7 +164,7 @@ criarElemento() {
 
 shareOnWhatsApp() {
   const shareCode = '*' + this.codigo + '*';
-  const shareText = '_"' + this.texto + '"_';
+  const shareText = '_' + this.texto + '_';
   const shareUrl = '*leiturabiblica.github.io/ler*';
 
   const whatsappUrl = `https://api.whatsapp.com/send?text=${shareCode}%0A%0A${shareText}%0A%0ALeia%20mais%20em:%20${shareUrl}`;
